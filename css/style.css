@@ -1,21 +1,28 @@
-header nav ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
-header nav ul li {
-    float: left;
+.navbar ul li {
+    float: right;
+    border-right: 2px solid #5a5353;
+
 }
 
-ul li a {
+.navbar li a {
+  color: #000000;
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 6px 10px;
+  margin: 2px;
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #111111;
+.navbar li a:hover {
+  color: #00000066;
+}
+
+.navbar ul li:first-child {
+  border-right: none;
 }
