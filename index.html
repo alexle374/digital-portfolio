@@ -10,31 +10,98 @@ EMAIL: alexml4@uci.edu
   <meta charset="utf-8">
   <meta name="author" content="Alex Le">
   <meta name="description" content="Digital Portfolio">
-   <!-- you would link to an external stylesheet here! -->
+  <!-- you would link to an external stylesheet here! -->
     <link rel="stylesheet" href="css/style.css">
-   <!-- you would also link to Bootstrap here! -->
+  <!-- you would also link to Bootstrap here! -->
+  <!-- Lexend from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Other head elements like your own CSS link go here -->
   <title>Alex Le</title>
 </head>
 <body>
-<header>
-  <nav class="navbar">
-    <ul>
-      <li><a href="src/resume.pdf" target="_blank">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="index.html">Home</a></li>
-    </ul>
-  </nav>
-  <h1>Alex Le</h1>
-  <article>
+  <header>
+    <nav class="navbar">
+      <h1>Alex Le</h1>
+      <ul class="menu">
+        <li><a href="#home">Home </a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="src/resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content" id="home">
+    <h1>Home</h1>
+    <p>Hello, I'm</p>
+    <p>Alex Le</p>
+    <p>A second year Computer Science student focused on building clear, efficient, and reliable software.</p>
+  </div>
+  <div class="content" id="about">
     <h1>About Me</h1>
-    <p>Hello my name is Alex and I am currently a full time at the University of California, Irvine.
-      Currently, I'm a second year studying Computer Science and driven by curiosity, I enjoy problem-solving 
-      and working with peers. Outside the classroom, I usually spend my time outdoors doing activies such as 
-      snowboarding, backpacking, and hiking. Furthmore, I'm always looking for ways to improve my coding skills and 
-      creativity. Feel free to reach out to me for any inquiries or questions.</p>
-  </article>
-  
+    <p>I'm a second year Computer Science student at the University of California, Irvine, with a strong foundation in problem-solving, software development, and mathematical reasoning. Through my coursework, I've developed a structured approach to thinking about algorithms, data structures, and system design. </p> 
+    <p>With a strong foundation in Python and C++, I enjoy developing scalable, efficient, and powerful back-end software.Currently, I'm learning how to create human-computer interaction software using languages such as HTML, CSS, and JavaScript.</p>
+    <p>Beyond academics, I bring strong communication and teamwork skills where I enjoy helping others learn, collaborating in team environments, and continuously refining my technical skills. Feel free to reach out to me for any inquiries or questions!</p>
+    </div>
+  <div class="content" id="skills">
+    <h1>Skills</h1>
+    <ul class="skills">
+      <li>Python</li>
+      <li>C++</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>GitHub</li>
+      <li>Visual Studio Code</li>
+      <li>SQL</li>
+    </ul>
+  <div class="content" id="projects">
+    <h1>Projects</h1>
+    <ul class="projects">
+      <li>
+        <h2>Personal Portfolio Website</h2>
+        <p>A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, and contact information.</p>
+      </li>
+      <li>
+        <h2>Chat Application</h2>
+        <p>A real-time chat application developed using Python and Flask, allowing users to communicate in different chat rooms.</p>
+      </li>
+      <li>
+        <h2>Data Analysis Tool</h2>
+        <p>A data analysis tool created with Python and Pandas to process and visualize large datasets for insights.</p>
+      </li>
+    </ul>
+  </div>
+  <div class="content" id="education">
+    <h1>Education</h1>
+    <ul class="education">
+      <li>
+        <h2>University of California, Irvine</h2>
+        <p>Bachelor of Science in Computer Science (Expected Graduation: June 2028)</p>
+        <p>GPA: 3.8</p>
+        <p>Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Web Development</p>
+      </li>
+      <li>
+        <h2>KIPP San Jose Collegiate</h2>
+        <p>High School Diploma (Graduated: June 2024)</p>
+        <p>Unweighted GPA: 4.0</p>
+        <p>Achievements: Honor Roll, AP Scholar with Distinction</p>
+      </li>
+    </ul>
+  </div>
+  <div class="content" id="contact">
+    <h1>Contact Me</h1>
+    <form action="" method="post">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br> 
+      <textarea type="text" name="message" placeholder="Your Message" required></textarea><br>
+      <input type="submit" value="Send Message">
+    </form>
+  </div>
   <footer>
   </footer>
 </body>
