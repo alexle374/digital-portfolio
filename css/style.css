@@ -4,7 +4,12 @@
   font-family: lexend, sans-serif;
 }
 
-.navbar {
+h1 {
+  font-weight: bold;
+  padding: 10px
+}
+
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,27 +17,57 @@
   background-color: #817b7b76;
 }
 
-.navbar ul{
+#navbar .menu{
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;;
 }
 
-.navbar ul li {
+#navbar ul li {
   border-right: 2px solid black;
   padding: 0px 10px;
   margin: 10px 0px;
 }
 
-.navbar ul li:last-child {
+#navbar ul li:last-child {
   border-right: none;
 }
 
-.navbar a {
+#navbar a {
   display: block;
   text-decoration: none;
   color:black;
 }
 
-.navbar a:hover {
+#navbar a:hover {
   color: rgba(0, 0, 0, 0.601)
 }
+
+#home {
+  text-align: center;
+  margin: 40px 10px 10px;
+}
+
+#home h1{
+  display: none;
+}
+
+#home p {
+  padding: 10px
+}
+
+#home p strong {
+  font-size: 40px;
+}
+
+#portrait {
+  width: 20em;
+  height: 20em;
+  display: 
+}
+
+.center {
+  margin: auto;
+}
+
