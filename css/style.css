@@ -9,11 +9,16 @@ h1 {
   padding: 10px
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 #navbar {
   display: flex;
   align-items: center;
   padding: 15px;
-  background-color: #817b7b76;
+  background-color: #817b7b;
   justify-content: space-between;
 }
 
@@ -42,11 +47,13 @@ h1 {
 #home {
   text-align: center;
   margin: 40px 10px 10px;
+  scroll-margin-top: 120px;
 }
 
 #home h1{
   display: none;
 }
+
 
 #home p {
   padding: 10px
@@ -75,5 +82,27 @@ h1 {
 }
 
 .row {
-  margin-bottom: 20px;
+  margin-bottom: 5em;
+  scroll-margin-top: 120px;
+}
+
+footer .row {
+  background-color: #817b7b76;
+  margin-bottom: 0;
+  padding: 40px;
+  justify-content: center;
+}
+
+footer img {
+  width: 3em;
+  height: 3em;
+}
+
+a.button {
+    padding: 8px 8px;
+    border: 1px outset buttonborder;
+    border-radius: 4px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
 }
